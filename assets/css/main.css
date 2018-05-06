@@ -271,7 +271,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
+	background: url(../img/ocean1.jpeg) no-repeat center top;
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
@@ -279,7 +279,7 @@ a:after {
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -338,6 +338,7 @@ a:after {
 	margin-bottom: 10px;
 }
 
+
 #footerwrap {
 	background: #2b2b2b;
 	margin-top: 0px;
@@ -393,7 +394,7 @@ a:after {
     background-size: cover;
 
     background-attachment: relative;
-    
+
     text-align: center;
 }
 
@@ -516,7 +517,7 @@ a:after {
 	font-weight: 700;
 	text-align: left;
 	letter-spacing: 2px;
-	
+
 }
 
 .grid figcaption a {
@@ -591,7 +592,7 @@ a:after {
 	background: #2b2b2b;
 	padding-right: 0px;
 	padding-left: 0px;
-	
+
 }
 
 .blog-bg h4 {
@@ -608,8 +609,21 @@ a:after {
 	padding-top: 10px;
 	background: #f2f2f2;
 }
-
-
+.icon-skill {
+  height: 10vh;
+  /* background-image: url(../img/manufacturing.png); */
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill-img {
+  height: 20vh;
+  width: 15vh;
+  min-width: 170px;
+  margin: 20px;
+}
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
@@ -634,4 +648,6 @@ a:after {
 		line-height: 38px;
 	}
 }
-
+.profile-pic{
+  height: 30vh;
+}
