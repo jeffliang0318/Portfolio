@@ -5828,4 +5828,11 @@ td.visible-print {
     display: none !important;
   }
 }
+.fab {
+  font-size: 4vh;
+  color: white;
+}
+.personal-icon {
+  padding: 10px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
