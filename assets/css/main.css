@@ -380,8 +380,6 @@ a:after {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    padding-top: 30px;
-    padding-bottom: 70px;
     margin-top: 45px;
 
 
@@ -404,10 +402,13 @@ a:after {
 
 .textdivider h1 {
 	padding-top: 70px;
+	padding-bottom: 70px;
 	color: orange;
-	font-size: 40px;
+	font-size: 55px;
   font-weight: bold;
   text-shadow: 9px 8px 8px black, 0 0 1em grey, 0 0 0.2em grey;
+  background-color: rgba(0,0,0,.5);
+  margin: 0;
 }
 
 .textdivider p {
@@ -421,7 +422,8 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/orange-line.jpg')
+	background-image: url('../img/bg/orange-line.jpg');
+
 }
 
 .divider2 {
@@ -628,9 +630,9 @@ a:after {
   justify-content: center;
 }
 .skill-img {
-  height: 20vh;
-  width: 15vh;
-  min-width: 170px;
+  height: 13vh;
+  width: 11vh;
+  min-width: 130px;
   margin: 20px;
 }
 /* ==========================================================================
