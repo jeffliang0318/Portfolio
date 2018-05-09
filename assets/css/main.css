@@ -444,8 +444,15 @@ a:after {
 	background-image: url('../img/bg/divider6.jpg')
 }
 
+.project-img {
+  width: 100%;
+  margin-bottom: 2vh;
+  border: grey solid 1px;
+}
 
-
+.engineering-project-title {
+  min-height: 10vh;
+}
 /* ==========================================================================
    Services Section
    ========================================================================== */
