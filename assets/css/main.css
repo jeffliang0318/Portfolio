@@ -280,7 +280,7 @@ a:after {
 	padding-top:120px;
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
+	background-position: center bottom;
 	min-height: 650px;
 	width: 100%;
 
@@ -671,9 +671,14 @@ a:after {
 }
 .profile-pic{
   height: 30vh;
+  /* border: 10px solid black; */
+  box-shadow: 1px 7px 12px 0px black;;
+  border-radius: 50%;
+  overflow: hidden;
+
 }
 .profile-title {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
