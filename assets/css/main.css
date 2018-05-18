@@ -275,7 +275,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/ocean1.jpeg) no-repeat center top;
+	background: url(../img/glasses.jpg) no-repeat center top;
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
@@ -671,4 +671,9 @@ a:after {
 }
 .profile-pic{
   height: 30vh;
+}
+.profile-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
