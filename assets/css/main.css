@@ -682,3 +682,6 @@ a:after {
   align-items: center;
   justify-content: space-evenly;
 }
+.clearfix{
+  margin-top: 15vh;
+}
