@@ -644,7 +644,8 @@ a:after {
 }
 .skill-img {
   height: 13vh;
-  width: 11vh;
+  /* width: 11vh; */
+  object-fit: contain;
   min-width: 130px;
   margin: 20px;
 }

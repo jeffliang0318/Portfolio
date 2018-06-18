@@ -5832,6 +5832,10 @@ td.visible-print {
   font-size: 4vh;
   color: white;
 }
+.fas {
+  font-size: 4vh;
+  color: white;
+}
 .personal-icon {
   padding: 10px;
 }
