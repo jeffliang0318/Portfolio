@@ -87,7 +87,7 @@ body {
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
-    color: #555;
+    color: #000;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -380,7 +380,7 @@ a:after {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: 45px;
+    /* margin-top: 45px; */
 
 
     background-position: center center;
@@ -688,4 +688,7 @@ a:after {
 }
 .clearfix{
   margin-top: 15vh;
+}
+.web-description {
+  margin-top: 2vh;
 }
