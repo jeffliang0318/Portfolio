@@ -692,3 +692,17 @@ a:after {
 .web-description {
   margin-top: 2vh;
 }
+.resume {
+  justify-content: center;
+  align-items: baseline;
+  display: flex;
+}
+.white {
+  color: white;
+}
+
+.resume-link {
+  border: 1px solid darkgrey;
+  border-radius: 30px;
+  padding: 0 10px;
+}
